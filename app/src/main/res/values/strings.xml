@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">TJ3</string>
+    <string name="app_name">TJ3 Test</string>
+
+    <string-array name="httpType_array">
+        <item>Post</item>
+        <item>Get</item>
+    </string-array>
+
 </resources>

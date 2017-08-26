@@ -16,6 +16,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- GPS -->
+        <activity android:name=".Activity001"></activity>
+
+        <!-- Player -->
+        <activity android:name=".Activity002"
+            android:theme="@style/AppThemeFullscreen"
+            ></activity>
+        <activity android:name=".Activity003"></activity>
+
     </application>
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 </manifest>

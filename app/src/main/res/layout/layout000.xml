@@ -1,18 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.chjan.tj3.Activity000">
+    >
+    <Button
+        android:id="@+id/butGPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="001_取得手機位置(定位)"
+        />
+
+    <Button
+        android:id="@+id/butPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="002_影片播放(廣告)"
+        />
+
+    <Button
+        android:id="@+id/butInternet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="003_網路傳遞(Get Post)"
+        />
 
     <Button
         android:id="@+id/butInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="取得手機資訊"
-        />
-
-
-
-</android.support.constraint.ConstraintLayout>
+        android:text="011_取得手機資訊"
+    />
+</LinearLayout>
